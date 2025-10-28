@@ -14,7 +14,7 @@ Description:  Creates databases, warehouses, roles, and users for dbt dev and pr
 
 -- Create dbt user (if not exists)
 CREATE OR REPLACE USER dbt_hol_user
-    PASSWORD = 'Snowflake@BW123'
+    PASSWORD = '<password>'
     DEFAULT_ROLE = 'dbt_hol_role_dev'
     DEFAULT_WAREHOUSE = 'vwh_dbt_hol_dev'
     COMMENT = 'dbt user for HOL 2025';
